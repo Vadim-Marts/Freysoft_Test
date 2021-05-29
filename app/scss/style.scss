@@ -140,8 +140,65 @@ main{
     }
 }
 
-
-// 
+.roles{
+    background: $black;
+    overflow: hidden;
+    padding-bottom: 65px;
+    position: relative;
+    z-index: -1;
+    &__gallery{
+        width: 100%;
+        position: relative;
+        left: -150px;
+        display: grid;
+        grid-template: 3fr / 1fr;
+        gap: 7px;
+        margin-bottom: 42px;
+        z-index: 1;
+    }
+    &__gallery-row{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 7px;
+        position: relative;
+        left: -150px;
+        &:nth-child(2){
+            left: 30px;
+        }
+        &:last-child{
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%);
+            }
+        }
+    }
+    &__gallery-item{
+        width: 120px;
+        height: 67px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    &__gallery-hover-link{
+        display: none;
+    }
+    &__btn{
+        width: 172px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $primary;
+        color: $black;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+}
 
 
 .section-inner{
