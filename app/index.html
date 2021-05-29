@@ -9,7 +9,11 @@
 </head>
 
 <body>
-  
+  <!--
+    Загалом структура мені подобається
+    виглядає логічно
+
+  -->
   <div class="wrapper">
     <header class="header">
       <div class="container">
@@ -49,6 +53,12 @@
       <section class="career">
         <div class="container">
           <div class="career__inner">
+            <!-- 
+              Тут мені щось не подобається
+              Не знаю що.
+              Думаю, тут така ж ситуація як і з футером
+              Не варто прив"язувати всі класи до .career
+             -->
             <h1 class="career__title">
               We’ve got the job for you<span class="text_primary_color">!</span>
             </h1>
@@ -59,83 +69,87 @@
         </div>
       </section>
       <section class="roles">
-        <div class="roles__gallery">
-          <div class="roles__gallery-row">
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/1.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+        <!-- 
+          Чомусь мені здається, що тут було б доречні трохи по іншому йменувати класи
+          Все таки .roles це просто обгортка, тоді як gallery це дійсно логічний блок
+         -->
+        <div class="gallery">
+          <div class="gallery__row">
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/1.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/2.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/2.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/3.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/3.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/4.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/4.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/5.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/5.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/6.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-          </div>
-          <div class="roles__gallery-row">
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/7.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/8.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/9.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/10.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/11.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
-            </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/12.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/6.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
           </div>
-          <div class="roles__gallery-row">
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/13.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+          <div class="gallery__row">
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/7.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/14.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/8.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/15.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/9.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/16.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/10.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/5.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/11.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
-            <div class="roles__gallery-item">
-              <img class="roles__gallery-img" src="images/gallery/6.jpg" alt="image">
-              <a class="roles__gallery-hover-link" href="#">See All Roles</a>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/12.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+          </div>
+          <div class="gallery__row">
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/13.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/14.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/15.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/16.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/5.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
+            </div>
+            <div class="gallery__item">
+              <img class="gallery__img" src="images/gallery/6.jpg" alt="image">
+              <a class="gallery__link" href="#">See All Roles</a>
             </div>
           </div>
         </div>
@@ -143,14 +157,20 @@
           <a class="roles__btn" href="#">See All Roles</a>
         </div>
       </section>
+      <!-- 
+        З блоками about i section  все не дуже логічно
+        вони відрізняються тільки бекграундом
+        елементи about__text ідентичні recruitment__text
+        я б мабуть тут по іншому написав класи
+       -->
       <section class="about">
         <div class="container">
-          <div class="section-inner">
-            <h2 class="section-title">About the company</h2>
-            <p class="about__text">
+          <div class="section">
+            <h2 class="section__title">About the company</h2>
+            <p class="section__text">
               Founded in 2019, FreySoft is a global provider of full-cycle software development services with headquarters in Kyiv, Ukraine. Our objective is to work on innovative projects that matter and bring value with the most balanced “personal life” / “work” ratio for our team.
             </p>
-            <p class="about__text">
+            <p class="section__text">
               The key areas of our activity include IT staff augmentation, web and mobile app development, MVP development for startups, integration & automatization, support & maintenance, legacy application transformation, UI/ UX product design, and AI-chatbots development.
             </p>
           </div>
@@ -158,12 +178,12 @@
       </section>
       <section class="recruitment">
         <div class="container">
-          <div class="section-inner">
-            <h2 class="section-title">FreySoft Recruitment process</h2>
-            <p class="recruitment__text">
+          <div class="section">
+            <h2 class="section__title">FreySoft Recruitment process</h2>
+            <p class="section__text">
               From the start, you will feel the responsive and effective process of recruiting. The main is bureaucracy-free environment inside the company.
             </p>
-            <p class="recruitment__text">
+            <p class="section__text">
               Identifying the right talent, attracting them, and motivating them to apply is what we strive for in our recruitment process. We have two key phases of hiring the candidate. After, you get either feedback or an offer.
             </p>
           </div>
@@ -182,24 +202,31 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer__items">
-          <div class="footer__copyright">
+        <div class="footer__inner">
+          <!-- 
+            Я б тут не прив"язував всі класи до футера
+           -->
+          <div class="copyright">
             © 2018-2021 FREYSOFT. All rights reserved
           </div>
-          <div class="footer__links">
-            <a class="footer__link" href="#">Terms of Use</a>
-            <a class="footer__link" href="#">Privacy policy</a>
-            <a class="footer__link" href="#">Site Map</a>
+          <div class="links">
+            <a class="links__item" href="#">Terms of Use</a>
+            <a class="links__item" href="#">Privacy policy</a>
+            <a class="links__item" href="#">Site Map</a>
           </div>
-          <div class="footer__social-items">
-            <a href="#" class="footer__social-link">
-              <img class="footer__social-img" src="images/facebook_ic.svg" alt="facebook">
+          <!-- 
+            Тут мені чомусь теж хочеться переписати класи
+            Чомусь мені здається, що social це більше окремий блок ніж елемент футера
+           -->
+          <div class="social">
+            <a href="#" class="social__item">
+              <img class="social__img" src="images/facebook_ic.svg" alt="facebook">
             </a>
-            <a href="#" class="footer__social-link">
-              <img class="footer__social-img" src="images/linkedin_ic.svg" alt="linkedin">
+            <a href="#" class="social__item">
+              <img class="social__img" src="images/linkedin_ic.svg" alt="linkedin">
             </a>
-            <a href="#" class="footer__social-link">
-              <img class="footer__social-img" src="images/twitter_ic.svg" alt="twitter">
+            <a href="#" class="social__item">
+              <img class="social__img" src="images/twitter_ic.svg" alt="twitter">
             </a>
           </div>
         </div>
